@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-=======
-
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-
-<?php
-require('./controllers/product_controller.php')
-?>
->>>>>>> 38147cb2a08f977dc371c651d9b1f555c6fc906f
 <!DOCTYPE html>
 <html>
 <head>
