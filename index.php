@@ -1,10 +1,3 @@
-
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html>
 <head>
@@ -898,19 +891,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="container">
 		<div class="col-md-3 footer-grid">
 			<h3>About Us</h3>
-			<p>Nam libero tempore, cum soluta nobis est eligendi 
-				optio cumque nihil impedit quo minus id quod maxime 
-				placeat facere possimus.</p>
+			<p>Loozeele, which means “there is hope”, trains and supports young women from the northern part of Ghana with vocational skills to enable them to create a source of income for themselves and their families.</p>
 		</div>
 		<div class="col-md-3 footer-grid ">
 			<h3>Menu</h3>
 			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="kitchen.html">Kitchen</a></li>
-				<li><a href="care.html">Personal Care</a></li>
-				<li><a href="hold.html">Household</a></li>						 
+				<li><a href="../index.php">Home</a></li>
+				<li><a href="../view/fabric.php">fabrics</a></li>
+				<li><a href="sheabutter.php"></a></li>
+				<!-- <li><a href="hold.html">Household</a></li>						 
 				<li><a href="codes.html">Short Codes</a></li> 
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="contact.html">Contact</a></li> -->
 			</ul>
 		</div>
 		<div class="col-md-3 footer-grid ">
@@ -935,8 +926,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 		<div class="clearfix"></div>
 			<div class="footer-bottom">
-				<h2 ><a href="index.html"><b>T<br>H<br>E</b>Big Store<span>The Best Supermarket</span></a></h2>
-				<p class="fo-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+				<h2 ><a href="index.html"><b>T<br>H<br>E</b>Loozeele Initiative<span>The Best Supermarket</span></a></h2>
+				<p class="fo-para">Where your purchase contributes to changing the life of a girl child</p>
 				<ul class="social-fo">
 					<li><a href="#" class=" face"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 					<li><a href="#" class=" twi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -945,20 +936,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</ul>
 				<div class=" address">
 					<div class="col-md-4 fo-grid1">
-							<p><i class="fa fa-home" aria-hidden="true"></i>12K Street , 45 Building Road Canada.</p>
+							<p><i class="fa fa-home" aria-hidden="true"></i>Accra Ghana.</p>
 					</div>
 					<div class="col-md-4 fo-grid1">
-							<p><i class="fa fa-phone" aria-hidden="true"></i>+1234 758 839 , +1273 748 730</p>	
+							<p><i class="fa fa-phone" aria-hidden="true"></i>+233 278899789</p>	
 					</div>
 					<div class="col-md-4 fo-grid1">
-						<p><a href="mailto:info@example.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>info@example1.com</a></p>
+						<p><a href="mailto:info@example.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>loozele@gmail.com</a></p>
 					</div>
 					<div class="clearfix"></div>
 					
 					</div>
 			</div>
 		<div class="copy-right">
-			<p> &copy; 2016 Big store. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
+			<p> &copy; Loozeele. All Rights Reserved </p>
 		</div>
 	</div>
 </div>

@@ -14,6 +14,7 @@ function validateBrand(){
     return false;
 }
 
+
 function validateCategory() {
     var category_name = document.getElementById("category_name").value;
     let pattern = /^[a-zA-Z]{4,30}$/g;
