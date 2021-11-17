@@ -1,3 +1,7 @@
+<?php
+require('./controllers/product_controller.php')
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
