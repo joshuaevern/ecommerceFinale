@@ -1,7 +1,7 @@
 <?php
 
-require_once('../models/product_class.php');
-require_once('../models/cart_class.php');
+require_once('./models/product_class.php');
+//require_once('./models/cart_class.php');
 
 
 function add_products_controller($product_cat, $product_brand, $product_title, $product_price, $product_desc, $product_image){
@@ -172,6 +172,7 @@ function displayOneProduct($id){
     
 }
 
+
 function displayAllProduct(){
     $all = select_all_products_controller();
     foreach ($all as $value){
@@ -184,24 +185,32 @@ function displayAllProduct(){
 
   
     echo <<<ALL
-
-    <div class="col-md-3 col-sm-6">
-    <div class="single-shop-product">
-        <div class="product-upper">
-            <img src="$product_image" alt="Product image">
+        
+        <form action="../view/singleProduct.php">
+        <div class="col-md-3 m-wthree">
+        <div class="col-m">
+        <a href="#" data-toggle="modal" data-target="#myModal2" class="offer-img">
+            <img src="$product_image" class="img-responsive" alt="">
+            <div class="offer"><p><span>Offer</span></p></div>
+        </a>
+        <div class="mid-1">
+            <div class="women">
+                <h6><a href="single.html">$product_title</a></h6>							
+            </div>
+            <div class="mid-2">
+                <p ><label></label><em class="item_price">GHS $product_price.00</em></p>
+                  <div class="block">
+                    <div class="starbox small ghosting"> </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+                    <div class="add">
+               <button class="btn btn-danger my-cart-btn my-cart-b" data-id="2" data-name="addCartButton" data-summary="summary 2" data-price="$product_price" data-quantity="1" data-image=" $product_image" href="singleProduct.php?id=$product_id">Select Product</button>
+            </div>
         </div>
-        <h2><a href="">$product_title</a></h2>
-        <div class="product-carousel-price">
-            <ins>GHS $product_price.00</ins> 
-        </div>  
-        
-   
-        
-        <div class="product-option-shop">
-            <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="singleProduct.php?id=$product_id">Select Product</a>
-        </div>                       
-    </div>
-    </div>
+        </div>
+        </div>
+        </form>
     ALL;
     }
     
