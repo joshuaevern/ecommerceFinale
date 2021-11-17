@@ -1,18 +1,18 @@
 <?php
 require('../models/customer_class.php');
 
-function addCustomerController($name, $email, $password, $country, $city, $contact, $userRole){
+function addCustomerController($name, $email, $password, $country, $city, $contact){
     //create an instance of the customer class
     $customer_instance = new Customer();
     // call the method from the class
-    return $customer_instance->addCustomer($name, $email, $password, $country, $city, $contact, $userRole);
+    return $customer_instance->addCustomer($name, $email, $password, $country, $city, $contact);
 }
 
-function editCustomerController($name, $email, $password, $country, $city, $contact, $image, $userRole){
+function editCustomerController($name, $email, $password, $country, $city, $contact, $image){
     //create an instance of the customer class
     $customer_instance = new Customer();
     //call the method of the class
-    return $customer_instance->editCustomer($name, $email, $password, $country, $city, $contact, $image, $userRole);
+    return $customer_instance->editCustomer($name, $email, $password, $country, $city, $contact, $image);
 }
 
 function deleteCustomerController($id){

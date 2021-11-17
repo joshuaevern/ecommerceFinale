@@ -4,10 +4,10 @@ require('../settings/dbconnection.php');
 //inherit the methods from Dbconnection; that is db_class
 class Customer extends Dbconnection{
 
-    function addCustomer($name, $email, $password, $country, $city, $contact, $userRole){
+    function addCustomer($name, $email, $password, $country, $city, $contact){
         
     //return true or false
-    return $this->query("insert into customer(customer_name, customer_email, customer_pass, customer_country, customer_city, customer_contact, user_role) values('$name', '$email', '$password', '$country', '$city', '$contact', $userRole)");
+    return $this->query("insert into customer(customer_name, customer_email, customer_pass, customer_country, customer_city, customer_contact) values('$name', '$email', '$password', '$country', '$city', '$contact')");
 
     }
 

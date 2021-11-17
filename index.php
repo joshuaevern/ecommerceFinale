@@ -1,6 +1,193 @@
 
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to Loozeele</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta property="og:title" content="Vide" />
+        <meta name="keywords" content="Loozeelee Initiative" />
+        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+        function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <!-- //for-mobile-apps -->
+        <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+        <!-- Custom Theme files -->
+        <link href="css/style.css" rel='stylesheet' type='text/css' />
+        <!-- js -->
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <!-- //js -->
+        <!-- start-smoth-scrolling -->
+        <script type="text/javascript" src="js/move-top.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function($) {
+                $(".scroll").click(function(event){		
+                    event.preventDefault();
+                    $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+                });
+            });
+        </script>
+        <!-- start-smoth-scrolling -->
+        <link href="css/font-awesome.css" rel="stylesheet"> 
+        <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+        <!--- start-rate---->
+        <script src="js/jstarbox.js"></script>
+            <link rel="stylesheet" href="css/jstarbox.css" type="text/css" media="screen" charset="utf-8" />
+                <script type="text/javascript">
+                    jQuery(function() {
+                    jQuery('.starbox').each(function() {
+                        var starbox = jQuery(this);
+                            starbox.starbox({
+                            average: starbox.attr('data-start-value'),
+                            changeable: starbox.hasClass('unchangeable') ? false : starbox.hasClass('clickonce') ? 'once' : true,
+                            ghosting: starbox.hasClass('ghosting'),
+                            autoUpdateAverage: starbox.hasClass('autoupdate'),
+                            buttons: starbox.hasClass('smooth') ? false : starbox.attr('data-button-count') || 5,
+                            stars: starbox.attr('data-star-count') || 5
+                            }).bind('starbox-value-changed', function(event, value) {
+                            if(starbox.hasClass('random')) {
+                            var val = Math.random();
+                            starbox.next().text(' '+val);
+                            return val;
+                            } 
+                        })
+                    });
+                });
+                </script>
+        <!---//End-rate---->
+
+        </head>
+        <body>
+        <a href="view/offer.php"><img src="images/download.png" class="img-head" alt=""></a>
+        <div class="header">
+
+                <div class="container">
+                    
+                    <div class="logo">
+                        <h1 ><a href="index.php"></b>LooZeeLee<span style="color:green">Act Transform Sustain</span></a></h1>
+                    </div>
+    
+                    <div class="head-t">
+                        <ul class="card">
+                            <li><a href="view/wishlist.php" ><i class="fa fa-heart" aria-hidden="true"></i>Wishlist</a></li>
+                            <li><a href="login/login.php" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
+                            <li><a href="login/register.php" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Register</a></li>
+                            <li><a href="view/shipping.php" ><i class="fa fa-ship" aria-hidden="true"></i>Shipping</a></li>
+                        </ul>		
+                    </div>
+                    
+                    <div class="header-ri">
+                        <ul class="social-top">
+                            <li><a href="#" class="icon facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a></li>
+                            <li><a href="#" class="icon twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a></li>
+                            <li><a href="#" class="icon pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i><span></span></a></li>
+                            <li><a href="#" class="icon dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i><span></span></a></li>
+                        </ul>	
+                    </div>
+                
+
+            </div>
+			<div class="header">
+
+
+				<div class="nav-top">
+					<nav class="navbar navbar-default">
+					
+					<div class="navbar-header nav_2">
+						<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						
+
+					</div> 
+					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+						<ul class="nav navbar-nav ">
+							<li class=" active"><a href="index.php" class="hyper "><span>Home</span></a></li>	
+							
+							<!-- Cloth category -->
+							<li class="dropdown ">
+								<a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>Cloth<b class="caret"></b></span></a>
+								<ul class="dropdown-menu multi">
+									<div class="row">
+										<div class="col-sm-3">
+											<ul class="multi-column-dropdown">
+												<li><a href="view/fabric.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Fabrics</a></li>
+												<li><a href="view/kimono.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Kimono</a></li>
+											</ul>										
+										</div>
+										<div class="col-sm-3 w3l">
+											<a href="view/fabric.php"><img src="images/cloth.jpeg" class="img-responsive" alt=""></a>
+										</div>
+										<div class="clearfix"></div>
+									</div>	
+								</ul>
+							</li>
+							
+<!-- Bags category -->
+<li class="dropdown">
+								<a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span>Bags<b class="caret"></b></span></a>
+								<ul class="dropdown-menu multi multi2">
+									<div class="row">
+										<div class="col-sm-3">
+											<ul class="multi-column-dropdown">
+												<li><a href="view/weaved_bag.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Weaved Bags</a></li>
+												<li><a href="view/leather_bag.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Leather</a></li>										
+											</ul>
+										</div>		
+										<div class="col-sm-3 w3l">
+											<a href="view/weaved_bag.php"><img src="images/bag.jpg" class="img-responsive" alt=""></a>
+										</div>
+										<div class="clearfix"></div>
+									</div>	
+								</ul>
+							</li>
+
+							<!-- Shea butter category -->
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span>Shea Products<b class="caret"></b></span></a>
+								<ul class="dropdown-menu multi multi2">
+									<div class="row">
+										<div class="col-sm-3">
+											<ul class="multi-column-dropdown">
+												<li><a href="view/unrefined_shea.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Unrefined Shea Butter</a></li>
+												<li><a href="view/processed_shea.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Processed Shea Butter</a></li>
+											</ul>
+										</div>
+
+										<div class="col-sm-3 w3l">
+											<a href="view/unrefined_shea.php"><img src="images/shea.jpg" class="img-responsive" alt=""></a>
+										</div>
+										<div class="clearfix"></div>
+									</div>	
+								</ul>
+							</li>
+							<li><a href="contact.html" class="hyper"><span>Contact Us</span></a></li>
+						</ul>
+					</div>
+					</nav>
+					 <div class="cart" >
+						<span class="fa fa-shopping-cart my-cart-icon"><span class="badge badge-notify my-cart-badge"></span></span>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+					
+				</div>			
+			</div>
+</head>
+<body>
   <!---->
-  <div data-vide-bg="video/video">
+<div data-vide-bg="video/video">
     <div class="container">
 		<div class="banner-info">
 			<h3> Your Number One Authentic Traditional Shop </h3>	
