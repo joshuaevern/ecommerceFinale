@@ -842,7 +842,7 @@ require('./controllers/product_controller.php')
 		</div>
 		<div class="clearfix"></div>
 			<div class="footer-bottom">
-				<h2 ><a href="index.html"><b>T<br>H<br>E</b>Loozeele Initiative<span>The Best Supermarket</span></a></h2>
+				<h2 ><a href="index.html">Loozeele Initiative<span>ACT TRANSFORM SUSTAIN</span></a></h2>
 				<p class="fo-para">Where your purchase contributes to changing the life of a girl child</p>
 				<ul class="social-fo">
 					<li><a href="#" class=" face"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>

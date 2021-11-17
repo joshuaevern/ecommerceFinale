@@ -60,23 +60,21 @@
 </head>
 <body>
     <!--footer-->
-<div class="footer">
+    <div class="footer">
 	<div class="container">
 		<div class="col-md-3 footer-grid">
 			<h3>About Us</h3>
-			<p>Nam libero tempore, cum soluta nobis est eligendi 
-				optio cumque nihil impedit quo minus id quod maxime 
-				placeat facere possimus.</p>
+			<p>Loozeele, which means “there is hope”, trains and supports young women from the northern part of Ghana with vocational skills to enable them to create a source of income for themselves and their families.</p>
 		</div>
 		<div class="col-md-3 footer-grid ">
 			<h3>Menu</h3>
 			<ul>
-				<li><a href="index.php">Home</a></li>
-				<li><a href="fabrics.php">fabrics</a></li>
-				<li><a href="care.php">Personal Care</a></li>
-				<li><a href="hold.php">sheabutter</a></li>						 
-				<li><a href="codes.php">Short Codes</a></li> 
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="../index.php">Home</a></li>
+				<li><a href="../view/fabric.php">fabrics</a></li>
+				<li><a href="sheabutter.php"></a></li>
+				<!-- <li><a href="hold.html">Household</a></li>						 
+				<li><a href="codes.html">Short Codes</a></li> 
+				<li><a href="contact.html">Contact</a></li> -->
 			</ul>
 		</div>
 		<div class="col-md-3 footer-grid ">
@@ -93,16 +91,16 @@
 		<div class="col-md-3 footer-grid">
 			<h3>My Account</h3>
 			<ul>
-				<li><a href="login.php">Login</a></li>
-				<li><a href="register.php">Register</a></li>
-				<li><a href="wishlist.php">Wishlist</a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="register.html">Register</a></li>
+				<li><a href="wishlist.html">Wishlist</a></li>
 				
 			</ul>
 		</div>
 		<div class="clearfix"></div>
 			<div class="footer-bottom">
-				<h2 ><a href="index.html"><b>T<br>H<br>E</b>Big Store<span>The Best Supermarket</span></a></h2>
-				<p class="fo-para">Where shopping is made easy</p>
+				<h2 ><a href="index.html">Loozeele Initiative<span>ACT TRANSFORM SUSTAIN</span></a></h2>
+				<p class="fo-para">Where your purchase contributes to changing the life of a girl child</p>
 				<ul class="social-fo">
 					<li><a href="#" class=" face"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 					<li><a href="#" class=" twi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -111,20 +109,20 @@
 				</ul>
 				<div class=" address">
 					<div class="col-md-4 fo-grid1">
-							<p><i class="fa fa-home" aria-hidden="true"></i> 125 Acrra Road, Ghana .</p>
+							<p><i class="fa fa-home" aria-hidden="true"></i>Accra Ghana.</p>
 					</div>
 					<div class="col-md-4 fo-grid1">
-							<p><i class="fa fa-phone" aria-hidden="true"></i>0279900789 or 023899874</p>	
+							<p><i class="fa fa-phone" aria-hidden="true"></i>+233 278899789</p>	
 					</div>
 					<div class="col-md-4 fo-grid1">
-						<p><a href="mailto:info@example.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>info@example1.com</a></p>
+						<p><a href="mailto:info@example.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>loozele@gmail.com</a></p>
 					</div>
 					<div class="clearfix"></div>
 					
 					</div>
 			</div>
 		<div class="copy-right">
-			<p> &copy; Loozeele Initiative. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
+			<p> &copy; Loozeele. All Rights Reserved </p>
 		</div>
 	</div>
 </div>
